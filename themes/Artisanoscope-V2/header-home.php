@@ -12,6 +12,9 @@
 
     <?php wp_body_open(); ?>
     <header>
-        <h1>L' Artisanoscope</h1>
+        <h1>L' Artisanoscope: page d'accueil</h1>
+        <?php
+
+        ?>
     </header>
     <main>
