@@ -11,10 +11,7 @@
 <body <?php body_class(); ?>>
 
     <?php wp_body_open(); ?>
-    <header>
-        <h1>L' Artisanoscope: page d'accueil</h1>
-        <?php
-
-        ?>
+    <header id="home_header">
+        <?php the_custom_logo(); ?>
     </header>
     <main>

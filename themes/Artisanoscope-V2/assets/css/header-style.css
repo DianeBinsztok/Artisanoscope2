@@ -1,11 +1,45 @@
 header{
-    background-color: teal;
     margin:-8px;
-    padding: 5rem;
-    color: white;
     justify-content: center;
-    margin-bottom: 1rem;
+    margin-bottom: 3rem;
 }
+.custom-logo{
+    object-fit: contain;
+    display: block;
+    margin: auto;
+    mix-blend-mode: multiply;
+}
+
+/*HEADER ACCUEIL DESKTOP*/
+#home_header{
+    background-image: url("../images/accueil-header.png");
+    background-position-x: center;
+    background-position-y: 60%;
+    background-repeat: no-repeat;
+    background-size:cover;
+    padding: 7rem;
+    padding-top: 5rem;
+}
+#home_header .custom-logo{
+    max-width: 70%;
+    max-height: 70%;
+}
+#home_header .custom-logo{
+    margin-top: -11rem;
+    padding-bottom: 11rem;
+}
+
+/*HEADER DESKTOP AUTRES*/
+#global_header{
+    background-color: teal;
+}
+
+#global_header .custom-logo{
+    max-width: 50%;
+}
+
+
 h1{
     text-align: center;
+    background-image: url();
 }
